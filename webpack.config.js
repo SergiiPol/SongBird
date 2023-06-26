@@ -16,7 +16,7 @@ module.exports = {
         hot: true,
     },
     entry: {
-        index: ["@babel/polyfill", path.resolve(__dirname, 'src', 'pages', 'main', 'main.js')],
+        index: ["@babel/polyfill", path.resolve(__dirname, 'src', 'pages', 'first', 'first.js')],
         second: ["@babel/polyfill", path.resolve(__dirname, 'src', 'pages', 'second', 'second.js')],
         third: ["@babel/polyfill", path.resolve(__dirname, 'src', 'pages', 'third', 'third.js')],
     },
@@ -28,7 +28,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/pages/main/main.html',
+            template: './src/pages/first/first.html',
             inject: true,
             chunks: ['index'],
             filename: 'index.html'
