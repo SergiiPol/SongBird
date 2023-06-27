@@ -10,7 +10,7 @@
     "clear": "rd /s /q dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sergii Polushkin",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.3",
